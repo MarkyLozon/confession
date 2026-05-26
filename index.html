@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>For Someone Special ❤️</title>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="background"></div>
+  <div class="overlay"></div>
+
+  <div class="stars"></div>
+  <div class="hearts"></div>
+  <button id="musicToggle">🔊 Music</button>
+
+  <main class="container">
+
+    <!-- INTRO -->
+    <section class="intro" id="intro">
+
+      <div class="glass-card">
+
+        <span class="tag">A Special Message ✨</span>
+
+        <h1>
+          Hey You ❤️
+        </h1>
+
+        <p>
+          I made something for you...
+        </p>
+
+        <button id="openBtn">
+          Open Message
+        </button>
+
+      </div>
+
+    </section>
+
+    <!-- MESSAGE -->
+    <section class="message-section hidden" id="messageSection">
+
+      <div class="message-card">
+
+        <h2>
+          To Someone Special 🌙
+        </h2>
+
+        <p id="typingText" class="typing"></p>
+
+        <audio id="bgMusic" loop>
+        <source src="Sagip.mp3" type="audio/mpeg">
+        </audio>
+
+        <div class="footer-text">
+          Made with ❤️
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
