@@ -5,41 +5,22 @@ const typingText = document.getElementById("typingText");
 const music = document.getElementById("bgMusic");
 const musicToggle = document.getElementById("musicToggle");
 
-const message = `I honestly don't know where to begin...
+const message = `Hello, Bernadette Irada. Para talaga sayo itong ginawa ko.
 
-But ever since you came into my life,
-something changed.
+May gusto talaga akong sabihin sayo, nahihiya lang ako kaya hindi ko masabi nang diretsahan. Kaya siguro ginawa ko na lang itong my day na ’to, hoping na makita mo. At kung hindi man, okay lang din… at least nasubukan ko.
 
-Days became softer.
-Songs suddenly made sense.
-And even simple moments started feeling special.
+Kaya kita niyaya mag-cinema noon kasi gusto talaga kitang makasama at makausap nang tayo lang dalawa. Pero aminado ako, nahihiya ako sayo. Pakiramdam ko kasi minsan jina-judge mo ako kaya lalo akong nawawalan ng lakas ng loob.
 
-Maybe you don't realize it,
-but your smile can brighten someone's entire day.
+Hindi ako sanay umamin, lalo na sa taong tulad mo. Feeling ko nga wala talaga akong chance. Pero ayoko rin naman na manatili na lang itong nararamdaman ko nang hindi mo nalalaman.
 
-This website may just look like lines of code,
-but every single word here is genuine.
+Siguro ito na yung paraan ko para sabihin sayo na gusto kita.
 
-You became someone important to me.
-Someone I think about more than I should.
-Someone who unknowingly became part of my happiness.
+Alam ko baka hindi ka mag-reply dito, at okay lang. Ikaw lang naman makakita nitong my day na ’to.
 
-And if life ever gets heavy for you...
-if you ever feel tired,
-unloved,
-or unappreciated...
+Kaya eto lang talaga yung tanong ko sayo…
 
-please remember this:
-
-someone out there thinks you're absolutely amazing.
-
-Maybe this is cheesy.
-Maybe this is unexpected.
-Maybe this message feels random.
-
-But I just wanted to tell you something honest...
-
-You are special to me. ❤️`;
+Pwede ba kitang ligawan?
+`;
 
 let index = 0;
 let isPlaying = false;
